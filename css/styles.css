@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+/* || RESET */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  /* General font styling */
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* || VARIABLES */
+
+/* || UTILITY CLASSES */
+
+.invisible {
+  display: none;
+}
+
+/* || GENERAL STYLES */
+
+body {
+  background-color: lightcyan;
+}
+
+main {
+  width: 90%;
+  max-width: 30rem;
+  padding: 2em;
+  border-radius: 1rem;
+  border: 2px solid firebrick;
+  background-color: lightpink;
+  text-align: center;
+
+  /* Center the card */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+h1 {
+  font-size: min(5vw + 1rem, 3rem);
+  text-transform: uppercase;
+  color: firebrick;
+  margin-bottom: 2rem;
+}
+
+button {
+  width: 40%;
+  padding: 0.5em 0px;
+  border-radius: 1rem;
+  border: 1px solid firebrick;
+  background-color: lightyellow;
+  font-size: min(3vw + 1rem, 2rem);
+  color: firebrick;
+}
+
+button:active {
+  border: none;
+  outline: 5px solid firebrick;
+  opacity: 0.5;
+}
